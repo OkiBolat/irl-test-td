@@ -4,11 +4,6 @@ const addButton = document.querySelector("#add-button"),
       todosContainer = document.querySelector("#todos-container");
 
 const todos = [
-  { order: 5, text: 'Hello world' },
-  { order: 3, text: 'Hello world' },
-  { order: 1, text: 'Hello world' },
-  { order: 2, text: 'Hello world' },
-  { order: 4, text: 'Hello world' },
 ];
 
 function render() {
