@@ -23,7 +23,9 @@ body {
 }
 .main {
   display: flex;
+  align-items: flex-start;
   justify-content:space-around;
+  margin-bottom: auto;
 }
 .main__input {
   box-sizing: border-box;
@@ -32,6 +34,7 @@ body {
   width: 400px;
   border: 1px solid black;
   padding: 16px;
+  margin-top: 160px;
 }
 .main__input input {
   margin-bottom: 16px;
@@ -52,7 +55,6 @@ body {
   font-size:72px;
   line-height: 82px;
   font-weight: 500;
-  margin-top: -120px;
 }
 
 .main-down-text {
